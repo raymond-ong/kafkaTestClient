@@ -1,0 +1,87 @@
+.mainBody {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.title2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.formContainer {
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    margin: 5px;
+    padding: 5px;    
+}
+
+.formItems {
+    display: grid;
+    grid-template-columns: fit-content(300px) 1fr;
+}
+
+.formLabel {
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.formTxtContainer {
+    padding-right: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.formTxt {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formButtonContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.formButton {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.textAreaContainer {
+    /* min-height: 120px;
+    max-height: 1000px; */
+}
+
+.formTxtArea {
+}
+
+/* Button Colors - Start */
+.button-blue {
+    background-color: rgba(0, 0, 255, 0.1);
+    border: 1px solid blue;
+    color: blue;
+}
+.button-blue:hover {
+    background-color: rgba(0, 0, 255, 0.3);
+    border: 1px solid darkblue;
+}
+
+.button-green {
+    background-color: rgba(0, 255, 0, 0.1);
+    border: 1px solid green;
+    color: green;
+}
+.button-green:hover {
+    background-color: rgba(0, 255, 0, 0.3);
+    border: 1px solid darkgreen;
+}
+/* Button Colors - End */

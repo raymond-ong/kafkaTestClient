@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Kafka Client</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body class="mainBody">
+        <div class="title">Kafka Client Tester</div>
+        <div class="formContainer">
+            <div class="formItems">
+                <div class="formLabel">Server URL:</div>
+                <div class="formTxtContainer">
+                    <input type="text" class="formTxt" id="txtServer"/>
+                </div>
+       
+                <div class="formLabel">JSON Value:</div>
+                <div class="formTxtContainer textAreaContainer">
+                    <textArea class="formTxt formTxtArea" id="txtValue" oninput="handleTextAreaInput()"></textArea>
+                </div>
+            </div>
+
+            <div class="formButtonContainer">
+                <input type="button" class="formButton button-green" value="Set Sample Message" 
+                onclick="handleSetSampleMessage()">
+                <input type="button" class="formButton button-blue" value="Send" 
+                onclick="handleSend()">
+            </div>
+        </div>
+
+        </div>
+    </body>
+</html>
